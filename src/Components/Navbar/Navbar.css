@@ -1,14 +1,16 @@
 .navbar {
     display: flex;
-    justify-content: space-around;
-    padding: 16px;
+    justify-content: space-between;
     box-shadow: 0 1px 3px -2px black;
+    padding: 5px 3em;
+    height: 80px;
+    margin: 0;
 }
 
 .nav-logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .nav-logo p {
@@ -34,6 +36,7 @@
     justify-content: center;
     gap: 3px;
     cursor: pointer;
+    color: #171717;
 }
 
 .nav-menu hr{
@@ -52,10 +55,10 @@
 
 .nav-login-cart button {
     width: 150px;
-    height: 60px;
+    height: 45px;
     outline: none;
     border: none;
-    border-radius: 20px;
+    border-radius: 14px;
     color: white;
     font-size: 1.6em;
     font-weight: 500;
